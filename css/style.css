@@ -1,0 +1,235 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+div h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 110px;
+}
+.element{
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  font-size: 24px;
+  color: #ffffff;
+  z-index: 3;
+}
+/*------------------------------------overlay css-----------------------------------------------------*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(112, 0, 255, 0.88);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #000000;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+/*---------------------------------------------------------------------------------------------------*/
+.carousel{
+  z-index: 2;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+    /*z-index: 1;*/
+}
+
+.carousel-inner {
+    height: 100%;
+}
+.carousel-caption{
+  position: absolute;
+  margin-top: 70px;
+  margin-bottom: 200px;
+  color: #ffffff
+}
+div.carousel-caption p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+}
+div.carousel-caption h2.gtm{
+  font-family: 'Lobster Two', cursive;
+  font-size: 140px;
+}
+div.carousel-caption .btn-outline{
+    background-color: transparent;
+    color: inherit;
+    font-size: 25px;
+    transition: all .5s;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.parallax{
+  background-image: url(../images/body1.jpg);
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work{
+  margin-top: 100px;
+  color: #ffffff;
+  font-family: 'Glegoo', serif;
+  font-size: 30px;
+}
+div.work .btn-outline{
+    background-color: transparent;
+    color: inherit;
+    font-size: 25px;
+    transition: all .5s;
+}
+div.work .btn-outline:hover{
+  background-color: rgb(255, 255, 255);
+    color: #990860;
+    font-size: 25px;
+    transition: all .5s;
+}
+.bg-0{
+  background-color: #000000;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.profile{
+	max-width: 200px;
+	max-height: 150px;
+}
+.foot-title{
+  font-size: 6em;
+  color: #ffffff;
+}
+.btn-social{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 45px;
+}
+.btn-outline{
+	color: #858585;
+	margin-top: 25px;
+}
+.bg-1{
+	font-size: 15px;
+	background-color: #171616;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.heart{
+	color: #ff0000;
+}
+/*------------------------ABOUT CSS---------------------------*/
+.parallaxabout{
+  background-image: url(../images/about_cover1.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about{
+  margin-top: 250px;
+  color: #ffffff;
+}
+.about h1{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 110px;
+}
+.about-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #0091EA;
+
+}
+.about-section h2{
+  color: #fffafa;
+  font-size: 100px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.about-section p{
+  font-weight: lighter;
+  padding-top: 20px;
+  color: #fffafa;
+  font-size: 25px;
+}
+/*------------CONTACT css-----------------*/
+.parallaxcontact{
+  background-image: url(../images/contact_cover.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.contact h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 80px;
+  color: #ffffff;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+.contact{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #E91E63;
+}
+/*-------------WORK CSS-----------------*/
+.parallaxwork{
+  background-image: url(../images/work_cover.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portfolio-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #EEFF41;
+}
+.portfolio-section img{
+  width: 100%;
+}
