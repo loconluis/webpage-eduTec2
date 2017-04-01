@@ -195,6 +195,23 @@ div.work .btn-outline:hover{
   color: #fffafa;
   font-size: 25px;
 }
+.about-section-guate{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #52ff00;
+}
+.about-section-guate h2{
+  color: #fffafa;
+  font-size: 100px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.about-section-guate p{
+  font-weight: lighter;
+  padding-top: 20px;
+  color: #fffafa;
+  font-size: 25px;
+}
 /*------------CONTACT css-----------------*/
 .parallaxcontact{
   background-image: url(../images/contact_cover.jpg);
